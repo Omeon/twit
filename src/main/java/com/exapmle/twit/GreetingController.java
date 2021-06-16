@@ -22,5 +22,4 @@ public class GreetingController {
         return "main";
     }
 
-
 }
