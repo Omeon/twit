@@ -12,6 +12,15 @@ public class Message {
     private Integer id;
 
     private String text;
+
+    public Message() {
+    }
+
+    public Message(String text, String tag) {
+        this.text = text;
+        this.tag = tag;
+    }
+
     private String tag;
 
     public String getText() {
